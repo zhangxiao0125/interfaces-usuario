@@ -1,33 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Formulario</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Página de inicio</title>
 </head>
+
 <body>
-    <form action="">
-            <label for="name">Nombre: </label><br>
-            <input type="text" id="name" name="name"><br>
 
-            <label for="family-name">Primer apellido: </label><br>
-            <input type="text" id="family-name" name="family-name"><br>
+  <div id="b">
 
-            <label for="bday">Fecha de nacimiento: </label><br>
-            <input type="date" id="bday" name="bday" placeholder="dd/mm/yyyy"><br>
+    <header id="header-menu">
+      <nav style="display: inline-flex">
+        <img src="img/icon.png" id="icon-top" alt="Icono corporativo">
+        <ul id="menu">
+          <li> <a href="otra_pag.html">Menú ítem</a> </li>
+          <li>Menú ítem</li>
+          <li>Menú ítem</li>
+        </ul>
+      </nav>
+    </header>
 
-            <label for="email">E-mail: </label><br>
-            <input type="text" id="email" name="email"><br>
+    <section>
+      <article>
+        <header>
+          <h2>Aprendiendo CSS</h2>
+          <small>Cascading Style Sheets</small>
+        </header>
+        <p>Página de prueba para ver como estructurar y dotar de color para ser usada en nuestra página principal.</p>
+      </article>
 
-            <label for="tel">Telefono: </label><br>
-            <input type="text" id="tel" name="tel"><br>
+      <article>
+        <header>
+          <h2>Revisa la web de https://www.w3schools.com</h2>
+          <small>Hay todo tipo de ejemplos interesantes.</small>
+        </header>
+        <p>HTML5 + CSS3 está explicado en detalle con múltiples ejemplos que puedes cortar y pegar en tu página web.</p>
+      </article>
+    </section>
 
-            <label for="new-password">Password: </label><br>
-            <input type="text" id="new-password" name="new-password" required="new-password"><br>
+    <aside>
+      <h2>Otras webs:</h2>
+      <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">Mozilla HTML</a></p>
 
-            <label for="color">Color favorito: </label><br>
-            <input type="text" id="color" name="color"><br>
+      <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">Mozilla CSS</a></p>
+    </aside>
+  </div>
 
-            <input type="submit" value="Registrar"/>
-    </form>
+  <footer>
+    <small>Interfaces de Usuario 2021-2022 <a
+        href="https://oas.sci.uma.es:8443/ht/2021/ProgramasAsignaturas_Titulacion_5103_AsigUMA_51169.pdf"
+        target="_blank">Guía docente</a></small>
+  </footer>
+
 </body>
+
 </html>
